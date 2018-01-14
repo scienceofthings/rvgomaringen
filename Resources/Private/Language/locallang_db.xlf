@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-12-22T15:31:07Z" product-name="jwmusterprojekt8">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_glossary2_domain_model_glossary.first_name">
+				<source>Firstname</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary2_domain_model_glossary.last_name">
+				<source>Lastname</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary2_domain_model_glossary.country">
+				<source>Country</source>
+			</trans-unit>
+			<trans-unit id="tx_glossary2_domain_model_glossary.position">
+				<source>Position</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

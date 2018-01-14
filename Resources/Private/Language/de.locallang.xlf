@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2016-07-13T12:57:46Z">
+		<header>
+			<generator>LFEditor</generator>
+			<authorName>jweiland.net</authorName>
+			<authorEmail>projects@jweiland.net</authorEmail>
+		</header>
+		<body>
+		<trans-unit id="jwmusterprojekt8.bgrimage" approved="yes">
+			<source>Background Image:Background image for the whole page (&lt;body&gt; element). Specify the path to the image file, f.e. fileadmin/images/my_bgr.jpg, or EXT:myext/Resources/Public/Images/my_bgr.jpg</source>
+			<target>Hintergrundbild:Hintergrundbild für die gesamte Seite (&lt;body&gt; Element). Geben Sie den Pfad zur Bilddatei ein, z.B. fileadmin/images/my_bgr.jpg, oder EXT:myext/Resources/Public/Images/my_bgr.jpg</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.bodybgr" approved="yes">
+			<source>Body Background Color:Background color of the whole page</source>
+			<target>Body Hintergrundfarbe:Hintergrundfarbe der gesamte Seite</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.linkcolor" approved="yes">
+			<source>Link color:Color of a default link</source>
+			<target>Link Farbe:Farbe eines Standard-Links</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.linkcolorhover" approved="yes">
+			<source>Link Color (hover):Color of a default link on mouse over</source>
+			<target>Link Farbe (hover):Farbe eines Standard-Links beim Mouse-Over Zustand</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.navvariants" approved="yes">
+			<source>Navigation variants:Choose one of the following variants</source>
+			<target>Navigationsvarianten:Wählen Sie eine der folgenden Navigationsvarianten</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.bgImageWidth">
+			<source>Width of Backgroundimage for full presentation</source>
+			<target>Breite des Hintergrundbildes für vollständige Darstellung</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.bgImageHeight">
+			<source>Height of Backgroundimage for full presentation</source>
+			<target>Höhe des Hintergrundbildes für vollständige Darstellung</target>
+		</trans-unit>
+		<trans-unit id="belayout-standard">
+			<source>Standard Layout</source>
+			<target>Standardlayout</target>
+		</trans-unit>
+		<trans-unit id="belayout-3col">
+			<source>Three Column Layout</source>
+			<target>Dreispaltiges Layout</target>
+		</trans-unit>
+		<trans-unit id="belayout-2col">
+			<source>Two Column Layout</source>
+			<target>Zweispaltiges Layout</target>
+		</trans-unit>
+		<trans-unit id="belayout-1col">
+			<source>One Column Layout</source>
+			<target>Einspaltiges Layout</target>
+		</trans-unit>
+		<trans-unit id="belayout-footer">
+			<source>Footer Layout</source>
+			<target>Layout Fusszeile</target>
+		</trans-unit>
+		<trans-unit id="col-content-main">
+			<source>Main Content</source>
+			<target>Hauptinhalt</target>
+		</trans-unit>
+		<trans-unit id="col-content-top">
+			<source>Content Top 100%</source>
+			<target>Inhaltsbereich oben 100%</target>
+		</trans-unit>
+		<trans-unit id="col-content-bottom">
+			<source>Content Bottom 100%</source>
+			<target>Inhaltsbereich unten 100%</target>
+		</trans-unit>
+		<trans-unit id="col-aside">
+			<source>Content Aside</source>
+			<target>Randbereich</target>
+		</trans-unit>
+		<trans-unit id="col-stage">
+			<source>Content Stage</source>
+			<target>Bühne</target>
+		</trans-unit>
+		<trans-unit id="col-content-left50">
+			<source>Content Left 50%</source>
+			<target>Inhaltsbereich links 50%</target>
+		</trans-unit>
+		<trans-unit id="col-content-right50">
+			<source>Content Right 50%</source>
+			<target>Inhaltsbereich rechts 50%</target>
+		</trans-unit>
+		<trans-unit id="col-content-left33">
+			<source>Content Left 33%</source>
+			<target>Inhaltsbereich links 33%</target>
+		</trans-unit>
+		<trans-unit id="col-content-middle33">
+			<source>Content Middle 33%</source>
+			<target>Inhaltsbereich mitte 33%</target>
+		</trans-unit>
+		<trans-unit id="col-content-right33">
+			<source>Content Right 33%</source>
+			<target>Inhaltsbereich rechts 33%</target>
+		</trans-unit>
+			<trans-unit id="col-multicolumn">
+			<source>Content Collection for Multicolumns</source>
+			<target>Datensammlung für Mehrspaltigkeit</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.metanavheader">
+			<source>Page Id of Header Meta Navigation</source>
+			<target>Seiten ID der Meta Header Navigation </target>
+		</trans-unit>
+		<trans-unit id="header1" approved="yes">
+			<source>h1 - Page header</source>
+			<target>h1 - Seitenueberschrift</target>
+		</trans-unit>
+		<trans-unit id="header2" approved="yes">
+			<source>h2 - Theme headline</source>
+			<target>h2 - Themenueberschrift</target>
+		</trans-unit>
+		<trans-unit id="header3" approved="yes">
+			<source>h3 - Headline Level 3</source>
+			<target>h3 - Ueberschrift 3. Ordnung</target>
+		</trans-unit>
+		<trans-unit id="header4" approved="yes">
+			<source>h4 - Headline Level 4</source>
+			<target>h4 - Ueberschrift 4. Ordnung</target>
+		</trans-unit>
+		<trans-unit id="header5" approved="yes">
+			<source>h5 - Headline Level 5</source>
+			<target>h5 - Ueberschrift 5. Ordnung</target>
+		</trans-unit>
+		<trans-unit id="infobox">
+			<source>Highlighted Info Box</source>
+			<target>Info Box</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.companyname" approved="yes">
+			<source>Company Name:Name used in the copyright info, f.e. in the footer </source>
+			<target>Firmenname:Der Name wird fuer die Copyright-Info genutzt, z.B. im Footer</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.compressCss" approved="yes">
+			<source>Compress CSS:Activate compression/minification of CSS files</source>
+			<target>Compress CSS:Komprimierung/Minifizierung von CSS-Dateien aktivieren</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.compressJs" approved="yes">
+			<source>Compress JavaScript:Activate compression/minification of JavaScript files</source>
+			<target>Compress JavaScript:Komprimierung/Minifizierung von JavaScript-Dateien aktivieren</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.concatenateCss" approved="yes">
+			<source>Concatenate CSS:Activate concatenation of multiple CSS files to one single file</source>
+			<target>Concatenate CSS:Zusammenfassung mehrerer CSS-Dateien zu einer einzelnen aktivieren</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.concatenateJs" approved="yes">
+			<source>Concatenate JavaScript:Activate concatenation of multiple JavaScript files to one single file</source>
+			<target>Concatenate JavaScript:Zusammenfassung mehrerer JavaScript-Dateien zu einer einzelnen aktivieren</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.logo" approved="yes">
+			<source>Logo:Path to an image file used as logo in the header of the website, f.e. fileadmin/images/my_bgr.jpg, or EXT:myext/Resources/Public/Images/my_bgr.jpg</source>
+			<target>Logo:Pfad zu einer Bilddatei, die als Logo im Kopfbereich der Seite genutzt wird, z.B. fileadmin/images/my_bgr.jpg, oder EXT:myext/Resources/Public/Images/my_bgr.jpg</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.metaId" approved="yes">
+			<source>Meta ID:ID of the starting page of the meta navigation</source>
+			<target>Meta ID:ID der Ausgangsseite der Meta-Navigation</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.rootId" approved="yes">
+			<source>Root ID:ID of the root page</source>
+			<target>Root ID:ID der Root-Seite</target>
+		</trans-unit>
+		<trans-unit id="jwmusterprojekt8.searchResultId" approved="yes">
+			<source>Search Result ID:ID of the page for search results</source>
+			<target>Search Result ID:ID der Seite mit den Suchergebnissen</target>
+		</trans-unit>
+		<trans-unit id="search">
+			<source>Search</source>
+			<target>Suche</target>
+		</trans-unit>
+		</body>
+	</file>
+</xliff>

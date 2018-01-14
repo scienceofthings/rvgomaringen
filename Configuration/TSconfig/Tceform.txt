@@ -1,0 +1,10 @@
+
+TCEFORM.tt_content.frame_class.addItems {
+    col-2 = col-2
+    col-3 = col-3
+    col-4 = col-4
+    col-6 = col-6
+    col-12 = col-12
+}
+
+TCEFORM.tt_content.header_layout.removeItems = 8,9,10

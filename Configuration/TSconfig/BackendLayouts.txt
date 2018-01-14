@@ -1,0 +1,166 @@
+mod.web_layout.BackendLayouts {
+  standard {
+    title = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:belayout-standard
+    icon = EXT:rvgomaringen/Resources/Public/Icons/Backendlayouts/standard.png
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 3
+        rows {
+          1 {
+            columns {
+              1 {
+                name = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:col-content-top
+                colspan = 3
+                colPos = 1
+              }
+            }
+          }
+
+          2 {
+            columns {
+              1 {
+                name = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:col-content-main
+                colspan = 2
+                colPos = 0
+              }
+
+              2 {
+                name = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:col-aside
+                colPos = 2
+              }
+            }
+          }
+
+          3 {
+            columns {
+              1 {
+                name = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:col-content-bottom
+                colspan = 3
+                colPos = 3
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  1col {
+    title = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:belayout-1col
+    icon = EXT:rvgomaringen/Resources/Public/Icons/Backendlayouts/onecol.png
+    config {
+      backend_layout {
+        colCount = 1
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:col-content-main
+                colPos = 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  2col {
+    title = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:belayout-2col
+    icon = EXT:rvgomaringen/Resources/Public/Icons/Backendlayouts/twocol.png
+    config {
+      backend_layout {
+        colCount = 2
+        rowCount = 3
+        rows {
+          1 {
+            columns {
+              1 {
+                name = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:col-content-top
+                colspan = 2
+                colPos = 1
+              }
+            }
+          }
+
+          2 {
+            columns {
+              1 {
+                name = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:col-content-left50
+                colPos = 0
+              }
+
+              2 {
+                name = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:col-content-right50
+                colPos = 2
+              }
+            }
+          }
+
+          3 {
+            columns {
+              1 {
+                name = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:col-content-bottom
+                colspan = 2
+                colPos = 3
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  3col {
+    title = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:belayout-3col
+    icon = EXT:rvgomaringen/Resources/Public/Icons/Backendlayouts/threecol.png
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 3
+        rows {
+          1 {
+            columns {
+              1 {
+                name = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:col-content-top
+                colspan = 3
+                colPos = 1
+              }
+            }
+          }
+
+          2 {
+            columns {
+              1 {
+                name = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:col-content-left33
+                colPos = 0
+              }
+
+              2 {
+                name = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:col-content-middle33
+                colPos = 2
+              }
+
+              3 {
+                name = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:col-content-right33
+                colPos = 4
+              }
+            }
+          }
+
+          3 {
+            columns {
+              1 {
+                name = LLL:EXT:rvgomaringen/Resources/Private/Language/locallang.xlf:col-content-bottom
+                colspan = 3
+                colPos = 3
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

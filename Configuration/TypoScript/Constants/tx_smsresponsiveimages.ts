@@ -1,0 +1,1 @@
+tx_smsresponsiveimages.srcset = 720, 940, 1140
