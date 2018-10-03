@@ -43,7 +43,7 @@ page.config{
 }
 
 page.includeCSS {
-    10 = EXT:rvgomaringen/Resources/Public/Css/bootstrap.css
+    10 = EXT:rvgomaringen/Resources/Public/bootstrap337dist/css/bootstrap.css
 }
 
 page.includeJSFooter {
@@ -56,7 +56,7 @@ page.includeJSFooter {
     20.external = 1
     20.integrity = sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q
 
-    30 = EXT:rvgomaringen/Resources/Public/JavaScript/bootstrap.js
+    30 = EXT:rvgomaringen/Resources/Public/bootstrap337dist/js/bootstrap.js
 
 }
 
