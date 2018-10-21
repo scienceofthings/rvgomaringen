@@ -1,52 +1,19 @@
-#frames for content
-tt_content.stdWrap.innerWrap.cObject{
-    44 =< tt_content.stdWrap.innerWrap.cObject.default
-    44.20.10.value = col-md-2
-    45 =< tt_content.stdWrap.innerWrap.cObject.default
-    45.20.10.value = col-md-3
-    46 =< tt_content.stdWrap.innerWrap.cObject.default
-    46.20.10.value = col-md-4 col-sm-6
-    47 =< tt_content.stdWrap.innerWrap.cObject.default
-    47.20.10.value = col-md-6
-    48 =< tt_content.stdWrap.innerWrap.cObject.default
-    48.20.10.value = col-md-12 clearfix
-}
+# Allow iframes in content elements
+lib.parseFunc_RTE.allowTags := addToList(object,param,embed,iframe)
 
-
-
-
-tt_content.textmedia.settings.responsive_image_rendering.layoutKey = srcset
-
-
-tt_content.textmedia {
-    settings {
-        responsive_image_rendering {
-            layoutKey = srcset
-
-            sourceCollection {
-                large {
-                    dataKey = desktop
-                    width = 1140m
-                    srcset = 1140w
-                    sizes = (min-width: 1140px) 1140px
-                }
-
-                medium {
-                    dataKey = table
-                    width = 940m
-                    srcset = 940w
-                    sizes = (min-width: 940px) 940px
-                }
-
-                small {
-                    dataKey = tablet-small
-                    width = 720m
-                    srcset = 720w
-                    sizes = 100vw
-                }
-
-            }
-        }
+tt_content.uploads.20 {
+    renderObj.15.file {
+        import = fileadmin/default/templates/images/icons/
+        wrap = |.png
     }
+# modify linktext of uploads element from filename to description
+    renderObj.20.data = file:current:description // file:current:name
+    renderObj.30 >
+
+#display file size with labels
+        itemRendering.30.bytes.labels = " | kB| MB| GB"
 }
+
+#Systemordner fuer Benutzer
+tt_content.login.20.hiddenFields.pid.value = 2
 

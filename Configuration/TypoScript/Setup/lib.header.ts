@@ -14,7 +14,7 @@ lib.header{
     }
     sourceCollection {
         large{
-            width = 1140
+            width = 380
             maxW = 1140
             mediaQuery = (min-width: 1170px)
         }
@@ -54,4 +54,5 @@ lib.header{
     file = fileadmin/default/templates/images/header/headerRvBg.png
     file.width = 255
     stdWrap.typolink.parameter = {$pidOfRV}
-[global]
+        [global]
+

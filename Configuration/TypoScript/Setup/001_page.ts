@@ -14,25 +14,46 @@ page.meta {
 
 page.10 = FLUIDTEMPLATE
 page.10 {
-    partialRootPath = EXT:rvgomaringen/Resources/Private/Partials
-    layoutRootPath = EXT:rvgomaringen/Resources/Private/Layouts
+    partialRootPath = EXT:rvgomaringen/Resources/Private/Custom/Partials
+    layoutRootPath = EXT:rvgomaringen/Resources/Private/Custom/Layouts
 
     file.stdWrap.cObject = CASE
     file.stdWrap.cObject {
         key.data = pagelayout
 
     ## Layout Varianten in Templates
-        pagets__standard = TEXT
-        pagets__standard.value = EXT:rvgomaringen/Resources/Private/Templates/bootstrap-12col.html
+    pagets__12col = TEXT
+    pagets__12col.value = EXT:rvgomaringen/Resources/Private/Custom/Templates/bootstrap-12col.html
 
-    default < .pagets__standard
+    pagets__84col = TEXT
+    pagets__84col.value = EXT:rvgomaringen/Resources/Private/Custom/Templates/bootstrap-8-4col.html
+
+    pagets__1col_grid = TEXT
+    pagets__1col_grid.value = EXT:rvgomaringen/Resources/Private/Custom/Templates/bootstrap-1col-grid.html
+
+    pagets__66col = TEXT
+    pagets__66col.value = EXT:rvgomaringen/Resources/Private/Custom/Templates/bootstrap-6-6col.html
+
+    pagets__teaser84col = TEXT
+    pagets__teaser84col.value = EXT:rvgomaringen/Resources/Private/Custom/Templates/bootstrap-teaser-and-8-4col.html
+
+    default < .pagets__12col
     }
 
     variables {
-    ##Hauptinhaltsbereich und erste Spalte in Mehrspalter
         col2 < styles.content.get
-        col2.select.where = colPos = 0
+        col2.select.where = colPos=0
         col2.stdWrap.ifEmpty.stdWrap.wrap = &nbsp;
+
+        col3 < styles.content.get
+        col3.select.where = colPos=1
+
+        teaser < styles.content.get
+        teaser.select.where = colPos=3
+
+        headerimage < styles.content.get
+        headerimage.select.where = colPos=2
+        headerimage.slide = -1
     }
 }
 
@@ -43,7 +64,8 @@ page.config{
 }
 
 page.includeCSS {
-    10 = EXT:rvgomaringen/Resources/Public/bootstrap337dist/css/bootstrap.css
+    file1 = EXT:rvgomaringen/Resources/Public/Css/colorbox/colorbox.css
+    file2 = EXT:rvgomaringen/Resources/Public/Css/default.css
 }
 
 page.includeJSFooter {
