@@ -1,6 +1,6 @@
 lib.menufirstlevel = HMENU
 lib.menufirstlevel {
-    entryLevel = 0
+    entryLevel = -2
     1 = TMENU
     1 {
         noBlur = 1
@@ -18,3 +18,5 @@ lib.menufirstlevel {
         SPC.doNotShowLink = 1
      }
 }
+lib.menufirstlevel = TEXT
+lib.menufirstlevel.value = 

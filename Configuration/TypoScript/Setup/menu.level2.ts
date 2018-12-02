@@ -1,6 +1,6 @@
 menu.level2 = HMENU
 menu.level2{
-    entryLevel = 1     
+    entryLevel = 0
     1 = TMENU
     1 {
         expAll = 1

@@ -37,7 +37,7 @@ page.10 {
     pagets__teaser84col = TEXT
     pagets__teaser84col.value = EXT:rvgomaringen/Resources/Private/Custom/Templates/bootstrap-teaser-and-8-4col.html
 
-    default < .pagets__12col
+    default < .pagets__84col
     }
 
     variables {
