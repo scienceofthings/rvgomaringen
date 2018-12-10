@@ -1,0 +1,16 @@
+{
+    "name": "scienceofthings/rvgomaringen",
+    "type": "typo3-cms-extension",
+    "description": "Provides complete site configuration for rv-gomaringen.de, team-steinlach-wiesaz and bikepark-gomaringen.",
+    "license": ["GPL-2.0-or-later"],
+    "authors": [
+        {
+            "name": "Gregor Hyneck",
+            "email": "gregorhyneck@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9"
+    }
+}
