@@ -4,20 +4,20 @@ config.htmlTag_langKey = de
 config.locale_all = de_DE.utf-8
 
 [PIDinRootline = {$pidOfTSW}]
-config.baseURL = https://www.team-steinlach-wiesaz.de
+config.baseURL = {$uri_tsw}
 [global]
 
 [PIDinRootline = {$pidOfBikepark}]
-config.baseURL = http://www.bikepark-gomaringen.de
+config.baseURL = {$uri_bikepark}
 [global]
 
 [PIDinRootline = {$pidOfRV}]
-config.baseURL = https://www.rv-gomaringen.de
+config.baseURL = {$uri_rv}
 [global]
 
 
 page.config.contentObjectExceptionHandler = 0
-config.no_cache = 0
+config.no_cache = 1
 
 
 
