@@ -66,3 +66,15 @@ h3{
     display: none;
   }
 }
+
+/* Clear bootstrap grid elements every x elements  as it is not possible to include rows */
+@media (min-width: (@screen-md-min) ) {
+  .row .col-md-4:nth-child(3n+1) {
+    clear: left;
+  }
+}
+@media (max-width: (@screen-md-min - 1)) and (min-width: (@screen-md-min)) {
+  .row .col-sm-6:nth-child(2n+1) {
+    clear: left;
+  }
+}

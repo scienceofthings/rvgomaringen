@@ -6658,6 +6658,17 @@ h3 {
 .table-responsive .row:first-child {
   display: none;
 }
+/* Clear bootstrap grid elements every x elements  as it is not possible to include rows */
+@media (min-width: 992px) {
+  .row .col-md-4:nth-child(3n+1) {
+    clear: left;
+  }
+}
+@media (max-width: 991px) and (min-width: 992px) {
+  .row .col-sm-6:nth-child(2n+1) {
+    clear: left;
+  }
+}
 @media (min-width: 992px) {
   .tx-bm-image-gallery-image img {
     object-fit: cover;
