@@ -64,21 +64,24 @@ page.config{
 }
 
 page.includeCSS {
-    file1 = EXT:rvgomaringen/Resources/Public/Css/colorbox/colorbox.css
+    file1 = EXT:rvgomaringen/Resources/Public/colorbox-master/example4/colorbox.css
     file2 = EXT:rvgomaringen/Resources/Public/Css/default.css
 }
 
 page.includeJSFooter {
 
-    10 = https://code.jquery.com/jquery-3.2.1.slim.min.js
-    10.external = 1
-    10.integrity = sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN
+    10 = EXT:rvgomaringen/Resources/Public/JavaScript/jquery-3.2.1.min.js
 
     20 = https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js
     20.external = 1
     20.integrity = sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q
 
     30 = EXT:rvgomaringen/Resources/Public/bootstrap-3.3.4/dist/js/bootstrap.js
+
+    40 = EXT:rvgomaringen/Resources/Public/colorbox-master/jquery.colorbox-min.js
+    41 = EXT:rvgomaringen/Resources/Public/colorbox-master/i18n/jquery.colorbox-de.js
+    42 = EXT:rvgomaringen/Resources/Public/JavaScript/colorbox.js
+
 
 }
 

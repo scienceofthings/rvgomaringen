@@ -1,0 +1,39 @@
+<f:layout name="Default"/>
+
+<f:section name="main">
+
+	<div class="tx-bm-image-gallery-list1 row">
+
+		<div class="tx-bm-image-gallery-header col-md-12">
+			<h2 class="tx-bm-image-gallery-gallerytitle">
+				{title}
+			</h2>
+		</div>
+
+		<f:for each="{items}" as="item">
+			<div class="tx-bm-image-gallery-item col-md-4">
+
+				<div class="tx-bm-image-gallery-image">
+					<a class="colorbox" rel="article-gallery" title="{item.title}" href="{item.publicUrl}"
+					   data-url="{item.publicUrl}" data-title="{item.properties.title}"
+					   data-description="{item.properties.description}"
+					   data-copyright="{item.properties.assets_copyright}"
+					   data-size="{item.properties.size -> f:format.bytes(decimals: '1', decimalSeparator: '{f:translate(key:\'decimalSeparator\')}')}">
+						<sms:image image="{item}" srcset="360" sizes="(min-width: 992px) 360px, 100vw"/>
+					</a>
+				</div>
+
+
+			</div>
+		</f:for>
+
+		<f:if condition="{collectionCount} > 1">
+			<div class="gallery-backlink-wrap col-md-4">
+				<f:link.action action="default">
+					<f:translate key="back-link"/>
+				</f:link.action>
+			</div>
+		</f:if>
+
+	</div>
+</f:section>
