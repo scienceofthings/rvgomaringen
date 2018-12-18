@@ -64,8 +64,9 @@ page.config{
 }
 
 page.includeCSS {
-    file1 = EXT:rvgomaringen/Resources/Public/colorbox-master/example4/colorbox.css
-    file2 = EXT:rvgomaringen/Resources/Public/Css/default.css
+    file1  = EXT:rvgomaringen/Resources/Public/colorbox-master/example4/colorbox.css
+    file2  = EXT:rvgomaringen/Resources/Public/DataTables/datatables.css
+    file10 = EXT:rvgomaringen/Resources/Public/Css/default.css
 }
 
 page.includeJSFooter {
@@ -80,9 +81,10 @@ page.includeJSFooter {
 
     40 = EXT:rvgomaringen/Resources/Public/colorbox-master/jquery.colorbox-min.js
     41 = EXT:rvgomaringen/Resources/Public/colorbox-master/i18n/jquery.colorbox-de.js
-    42 = EXT:rvgomaringen/Resources/Public/JavaScript/colorbox.js
 
+    50 = EXT:rvgomaringen/Resources/Public/DataTables/datatables.js
 
+    52 = EXT:rvgomaringen/Resources/Public/JavaScript/allDomains.js
 }
 
 
