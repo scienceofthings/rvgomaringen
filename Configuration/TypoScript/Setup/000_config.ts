@@ -14,11 +14,3 @@ config.baseURL = {$uri_bikepark}
 [PIDinRootline = {$pidOfRV}]
 config.baseURL = {$uri_rv}
 [global]
-
-
-page.config.contentObjectExceptionHandler = 0
-config.no_cache = 1
-
-
-
-
