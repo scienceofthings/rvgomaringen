@@ -1,6 +1,7 @@
 lib.menufirstlevel = HMENU
 lib.menufirstlevel {
-    entryLevel = -2
+    special = list
+    special.value = {$pidOfRV}, {$pidOfBikepark}, {$pidOfTSW}
     1 = TMENU
     1 {
         noBlur = 1
@@ -18,5 +19,3 @@ lib.menufirstlevel {
         SPC.doNotShowLink = 1
      }
 }
-lib.menufirstlevel = TEXT
-lib.menufirstlevel.value = 
