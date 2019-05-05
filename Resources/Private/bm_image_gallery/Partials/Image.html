@@ -1,0 +1,13 @@
+<div class="col-sm-12 col-md-6 col-lg-3">
+	<figure class="c-gallery__figure figure">
+		<a class="{f:if(condition:settings.lightbox.cssClass, then:settings.lightbox.cssClass, else:'c-gallery__link')}"
+		   rel="{f:if(condition:settings.lightbox.relAttribute, then:settings.lightbox.relAttribute, else:'article-gallery')}"
+		   title="{item.properties.title}" href="{item.publicUrl}" data-url="{item.publicUrl}"
+		   data-title="{item.properties.title}" data-description="{item.properties.description}"
+		   data-copyright="{item.properties.assets_copyright}"
+		   data-size="{item.properties.size -> f:format.bytes(decimals: '1', decimalSeparator: '{f:translate(key:\'decimalSeparator\')}')}">
+			<sms:image image="{item}" srcset="360" sizes="(min-width: 992px) 360px, 100vw" />
+		</a>
+		<f:render partial="Caption" arguments="{caption: item.properties.title}"/>
+	</figure>
+</div>
